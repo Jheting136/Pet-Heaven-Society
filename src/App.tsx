@@ -1,10 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Header } from './components/Header';
-import { PetList } from './components/PetList';
+import { Header } from './components/header';
+import { PetList } from './components/petList';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import { PetDetails } from './components/PetDetails';
+import { PetDetails } from './components/petDetails';
 import { PetAdoptionForm } from './components/PetAdoptionForm';
 
 function App() {

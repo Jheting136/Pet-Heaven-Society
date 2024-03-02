@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 0 0 6px 6px; 
+    padding: 1vw;
+  }
+
+  .element-1 {
+    align-self: flex-start;
+    /* Additional styling for element-1 */
+  }
+
+  .element-2 {
+    align-self: flex-end;
+    /* Additional styling for element-2 */
+  }
