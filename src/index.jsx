@@ -28,7 +28,7 @@ nav.render(
 
 content.render(
   <React.StrictMode>
-    <BrowserRouter basename="/Pet-Heaven-Society">
+    <BrowserRouter basename="/Pet-Heaven-Society/src/components">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/findAFriend" element={<FindAFriend />} />
